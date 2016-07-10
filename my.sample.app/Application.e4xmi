@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_97YQwUboEeat88xqPC5zLQ" elementId="org.eclipse.e4.application" bindingContexts="_97YQwEboEeat88xqPC5zLQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_PVY-oEbrEeat88xqPC5zLQ" elementId="my.sample.app.trimmedwindow.0" x="4" y="4" width="800" height="800">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_dzSyoEbrEeat88xqPC5zLQ" elementId="my.sample.app.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_glo-cEbrEeat88xqPC5zLQ" elementId="my.sample.app.perspective.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_vfPP8EbrEeat88xqPC5zLQ" elementId="my.sample.app.partsashcontainer.0">
+          <children xsi:type="basic:PartStack" xmi:id="_90h6gEbrEeat88xqPC5zLQ" elementId="my.sample.app.partstack.0">
+            <children xsi:type="basic:Part" xmi:id="__XaCgEbrEeat88xqPC5zLQ" elementId="my.sample.app.part.part1" label="part1" closeable="true"/>
+            <children xsi:type="basic:Part" xmi:id="_AhU38EbsEeat88xqPC5zLQ" elementId="my.sample.app.part.part2" label="part2"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_CzXzEEbsEeat88xqPC5zLQ" elementId="my.sample.app.partstack.1">
+            <children xsi:type="basic:Part" xmi:id="_EAbcEEbsEeat88xqPC5zLQ" elementId="my.sample.app.part.part3" label="part3"/>
+            <children xsi:type="basic:Part" xmi:id="_KlbaIEbsEeat88xqPC5zLQ" elementId="my.sample.app.part.part4" label="part4"/>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+  <rootContext xmi:id="_97YQwEboEeat88xqPC5zLQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_97YQwkboEeat88xqPC5zLQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_97YQw0boEeat88xqPC5zLQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_97YQxEboEeat88xqPC5zLQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_97YQxUboEeat88xqPC5zLQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_97YQxkboEeat88xqPC5zLQ" elementId="org.eclipse.fx.ui.keybindings.e4.service" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_97YQx0boEeat88xqPC5zLQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_97YQyEboEeat88xqPC5zLQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_97Y30EboEeat88xqPC5zLQ" elementId="org.eclipse.fx.ui.keybindings.e4.model" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingProcessingAddon"/>
+  <addons xmi:id="_97Y30UboEeat88xqPC5zLQ" elementId="org.eclipse.e4.ui.workbench.addons.HandlerProcessingAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_P0Y_YHEyEeWvKL2PHt7yBw" elementId="MinMax Addon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
+  <addons xmi:id="_P0Y_YXEyEeWvKL2PHt7yBw" elementId="DnD Addon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.dndaddon.DnDAddon"/>
+  <addons xmi:id="_P0ZmcHEyEeWvKL2PHt7yBw" elementId="Cleanup Addon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon"/>
+</application:Application>
